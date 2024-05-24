@@ -1,7 +1,7 @@
 :root{
-    --branco-principal: #FFFFFF;
+    --rosa-principal: #ffcdd4;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-rosa: #F99AAA;
     --cor-de-fundo: #00030C;
 }
 *{
@@ -19,5 +19,15 @@ body{
     background-size: contain;
 }
 .container{
-    height: 100% vh;
+    height: 100vh;
+    display: grid;
+    
+}
+.container-botao{
+
+    background-color: var(--botao-rosa);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--rosa-principal);
+    display: block;
 }
