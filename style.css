@@ -3,7 +3,7 @@
     --rosa-principal: #ffcdd4;
     --cinza-secundario: #C0C0C0;
     --botao-rosa: #F99AAA;
-    --cor-de-fundo: #f3f4f8;
+    --cor-de-fundo: #00030C;
     --fonte-principal: Merriweather;
 }
 *{
@@ -22,6 +22,8 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -30,7 +32,6 @@ body{
     
 }
 .container-botao{
-
     background-color: var(--botao-rosa);
     border-radius: 5px;
     padding: 1em;
@@ -57,3 +58,20 @@ body{
 .container-caixa{
     margin: 0 5em;
 }
+.imagem-secundaria{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao-texto{
+    color: var(--cinza-secundario)
+}
+
