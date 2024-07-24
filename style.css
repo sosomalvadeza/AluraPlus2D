@@ -95,5 +95,6 @@ body{
     color: var(--branco-principal)
 }
 .lista-item{
-
+    font-size: 32px;
+    color: var(--branco-principal)
 }
